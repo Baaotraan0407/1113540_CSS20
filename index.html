@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+.block1 {
+  display: flex; 
+  padding: 40px; 
+}
+
+
+@media screen and (max-width: 480px) {
+  .block1 {
+    display: block;
+  }
+}
+
+
+.block2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.khung {
+  padding: 20px;
+  height : 400px; 
+  width: 487px;
+}
+
+@media screen and (max-width: 480px) {
+  .khung {
+    flex: 40%; 
+    
+  }
+}
+
+.block3 {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px; 
+}
+.khung1 {
+  padding: 20px;
+  height : 368px; 
+  width: 368px;
+}
+
+@media screen and (max-width: 480px) {
+  .khung1 {
+    flex: 50%; 
+  }
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="block1" style="background-color:rgb(21, 229, 152);">
+</div>
+ <br>
+<div class="block2">
+  <div class="khung" style="background-color:rgb(47, 180, 233);"> 
+  </div>
+  
+  <div class="khung" style="background-color:rgb(47, 180, 233);">
+  </div>
+  
+  <div class="khung" style="background-color:rgb(47, 180, 233);">
+  </div>
+  
+</div> <br>
+
+<div class="block3">
+    <div class="khung1" style="background-color:#aaa;"> 
+    </div>
+    
+    <div class="khung1" style="background-color:#aaa;">
+    </div>
+    
+    <div class="khung1" style="background-color:#aaa;">
+    </div>
+    <div class="khung1" style="background-color:#aaa;">
+    </div>
+    
+  </div>
+   
+ 
+
+
+</body>
+</html>
